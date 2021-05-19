@@ -21,7 +21,12 @@ module.exports = function (db) {
       res.status(204).send();
     })
     .get((req, res) => { //read/return specific product
-      res.send(db.get("products").find({ id: req.params.id }).value());
+      const result = db.get("products").find({ id: req.params.id }).value();
+      if (result) {
+        res.send(result);
+      } else {
+        res.status(404).send();
+      }
     });
 
   return router;

@@ -12,7 +12,12 @@ document.getElementById("load").onclick = function () {
   if (value === "") {
     axios.get('/api/products').then(addList);
   } else {
-    axios.get(`/api/products/${value}`).then(addSingle);
+    axios.get(`/api/products/${value}`).then(addSingle)
+      .catch((err) => {
+        if (err.response.status === 404) {
+          notFound();
+        }
+      });
   }
 };
 
