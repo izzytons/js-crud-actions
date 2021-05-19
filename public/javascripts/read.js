@@ -1,4 +1,4 @@
-document.getElementById("load").onclick = function () {
+/*document.getElementById("load").onclick = function () {
   const req = new XMLHttpRequest();
   req.open('GET', '/api/products');
   req.onload = function () {
@@ -6,7 +6,15 @@ document.getElementById("load").onclick = function () {
     addList({ data });
   }
   req.send();
-}
+}*/
+document.getElementById("load").onclick = function () {
+  const value = document.getElementById("products-id").value;
+  if (value === "") {
+    axios.get('/api/products').then(addList);
+  } else {
+    axios.get(`/api/products/${value}`).then(addSingle);
+  }
+};
 
 
 
