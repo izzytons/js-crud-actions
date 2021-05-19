@@ -7,6 +7,30 @@
       "color": "orange",
       "id": "0124081a-4daa-425a-bb40-d5c016893fe3",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue. Risus quis varius quam quisque. Quis risus sed vulputate odio. Ultrices eros in cursus turpis. Est velit egestas dui id ornare arcu. Sem fringilla ut morbi tincidunt augue interdum velit euismod. Dictumst quisque sagittis purus sit amet volutpat. Sed libero enim sed faucibus turpis in eu. Dui vivamus arcu felis bibendum ut tristique et egestas."
+    },
+    {
+      "name": "Hiking Boots",
+      "price": "75.00",
+      "quantity": "5",
+      "description": "these are great",
+      "color": "brown",
+      "id": "e353ec4f-ccfa-49db-902d-1f63452102f8"
+    },
+    {
+      "name": "Hiking Boots",
+      "price": "75.00",
+      "quantity": "5",
+      "description": "these are great",
+      "color": "brown",
+      "id": "60119ea1-1296-48be-88ad-ef3b2f34c93f"
+    },
+    {
+      "name": "Hiking Boots",
+      "price": "75.00",
+      "quantity": "5",
+      "description": "these are great",
+      "color": "brown",
+      "id": "8a44b075-7f62-4147-98e5-50af476c5ae1"
     }
   ]
 }
