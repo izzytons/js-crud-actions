@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/44e08c9b-3d96-4a1e-8ddc-087b29d0a3b2/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/CRUD-express-js-demo",
+    "appService.deploySubpath": "."
+}
