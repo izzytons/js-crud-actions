@@ -11,7 +11,7 @@ describe('Test1', function () {
 
     it("should return test product info", function () {
         const mockRequest = httpMocks.createRequest({
-            method: "POST",
+            method: "GET",
             url: "/search",
             keyword: "test"
         });
